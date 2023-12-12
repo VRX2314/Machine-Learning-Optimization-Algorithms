@@ -1,0 +1,17 @@
+Fitting 4 folds for each of 4 candidates, totalling 16 fits
+[CV 3/4] END algorithm=auto, n_neighbors=3, p=2, weights=uniform;, score=(train=0.943, test=0.894) total time=   0.7s
+[CV 4/4] END algorithm=auto, n_neighbors=3, p=2, weights=uniform;, score=(train=0.939, test=0.898) total time=   0.7s
+[CV 1/4] END algorithm=auto, n_neighbors=3, p=2, weights=uniform;, score=(train=0.944, test=0.898) total time=   0.7s
+[CV 2/4] END algorithm=auto, n_neighbors=3, p=2, weights=uniform;, score=(train=0.947, test=0.886) total time=   0.7s
+[CV 2/4] END algorithm=auto, n_neighbors=3, p=2, weights=distance;, score=(train=1.000, test=0.888) total time=   0.6s
+[CV 1/4] END algorithm=auto, n_neighbors=3, p=2, weights=distance;, score=(train=1.000, test=0.902) total time=   0.6s
+[CV 3/4] END algorithm=auto, n_neighbors=3, p=2, weights=distance;, score=(train=1.000, test=0.904) total time=   0.6s
+[CV 4/4] END algorithm=auto, n_neighbors=3, p=2, weights=distance;, score=(train=1.000, test=0.901) total time=   0.6s
+[CV 3/4] END algorithm=auto, n_neighbors=3, p=1, weights=uniform;, score=(train=0.952, test=0.911) total time=   6.0s
+[CV 2/4] END algorithm=auto, n_neighbors=3, p=1, weights=distance;, score=(train=1.000, test=0.904) total time=   6.1s
+[CV 1/4] END algorithm=auto, n_neighbors=3, p=1, weights=uniform;, score=(train=0.950, test=0.907) total time=   6.1s
+[CV 4/4] END algorithm=auto, n_neighbors=3, p=1, weights=distance;, score=(train=1.000, test=0.919) total time=   5.9s
+[CV 4/4] END algorithm=auto, n_neighbors=3, p=1, weights=uniform;, score=(train=0.955, test=0.913) total time=   6.1s
+[CV 1/4] END algorithm=auto, n_neighbors=3, p=1, weights=distance;, score=(train=1.000, test=0.911) total time=   6.0s
+[CV 3/4] END algorithm=auto, n_neighbors=3, p=1, weights=distance;, score=(train=1.000, test=0.915) total time=   6.1s
+[CV 2/4] END algorithm=auto, n_neighbors=3, p=1, weights=uniform;, score=(train=0.956, test=0.900) total time=   6.2s

@@ -1,0 +1,629 @@
+Fitting 4 folds for each of 16 candidates, totalling 64 fits
+[CV 1/4] END C=0.001, multi_class=ovr, penalty=l1, random_state=420, solver=liblinear;, score=(train=0.113, test=0.113) total time=   0.7s
+[CV 4/4] END C=0.001, multi_class=ovr, penalty=l1, random_state=420, solver=liblinear;, score=(train=0.113, test=0.113) total time=   0.7s
+[CV 2/4] END C=0.001, multi_class=ovr, penalty=l1, random_state=420, solver=liblinear;, score=(train=0.113, test=0.113) total time=   0.7s
+[CV 3/4] END C=0.001, multi_class=ovr, penalty=l1, random_state=420, solver=liblinear;, score=(train=0.113, test=0.113) total time=   0.7s
+[CV 4/4] END C=0.001, multi_class=ovr, penalty=l1, random_state=420, solver=saga;, score=(train=0.102, test=0.102) total time=   1.2s
+[CV 3/4] END C=0.001, multi_class=ovr, penalty=l1, random_state=420, solver=saga;, score=(train=0.103, test=0.103) total time=   1.4s
+[CV 1/4] END C=0.001, multi_class=ovr, penalty=l1, random_state=420, solver=saga;, score=(train=0.113, test=0.113) total time=   1.5s
+[CV 2/4] END C=0.001, multi_class=ovr, penalty=l1, random_state=420, solver=saga;, score=(train=0.113, test=0.113) total time=   1.5s
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+[CV 1/4] END C=0.01, multi_class=ovr, penalty=l1, random_state=420, solver=liblinear;, score=(train=0.841, test=0.834) total time=   1.7s
+[CV 2/4] END C=0.01, multi_class=ovr, penalty=l1, random_state=420, solver=liblinear;, score=(train=0.845, test=0.838) total time=   1.7s
+[CV 3/4] END C=0.01, multi_class=ovr, penalty=l1, random_state=420, solver=liblinear;, score=(train=0.850, test=0.815) total time=   1.8s
+[CV 4/4] END C=0.01, multi_class=ovr, penalty=l1, random_state=420, solver=liblinear;, score=(train=0.848, test=0.829) total time=   1.8s
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+[CV 2/4] END C=0.001, multi_class=ovr, penalty=l2, random_state=420, solver=liblinear;, score=(train=0.866, test=0.848) total time=   5.2s
+[CV 4/4] END C=0.001, multi_class=ovr, penalty=l2, random_state=420, solver=liblinear;, score=(train=0.870, test=0.854) total time=   5.3s
+[CV 3/4] END C=0.001, multi_class=ovr, penalty=l2, random_state=420, solver=liblinear;, score=(train=0.869, test=0.838) total time=   5.3s
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+[CV 1/4] END C=0.001, multi_class=ovr, penalty=l2, random_state=420, solver=liblinear;, score=(train=0.867, test=0.843) total time=   5.6s
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+[CV 1/4] END C=0.01, multi_class=ovr, penalty=l2, random_state=420, solver=liblinear;, score=(train=0.916, test=0.870) total time=   8.3s
+[CV 2/4] END C=0.01, multi_class=ovr, penalty=l2, random_state=420, solver=liblinear;, score=(train=0.918, test=0.875) total time=   8.2s
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+[CV 3/4] END C=0.01, multi_class=ovr, penalty=l2, random_state=420, solver=liblinear;, score=(train=0.916, test=0.871) total time=   8.5s
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+[CV 4/4] END C=0.01, multi_class=ovr, penalty=l2, random_state=420, solver=liblinear;, score=(train=0.919, test=0.876) total time=   8.4s
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+[CV 4/4] END C=0.001, multi_class=ovr, penalty=l2, random_state=420, solver=saga;, score=(train=0.885, test=0.865) total time=  21.1s
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+[CV 2/4] END C=0.001, multi_class=ovr, penalty=l2, random_state=420, solver=saga;, score=(train=0.884, test=0.863) total time=  21.4s
+[CV 3/4] END C=0.001, multi_class=ovr, penalty=l2, random_state=420, solver=saga;, score=(train=0.887, test=0.858) total time=  21.4s
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+[CV 1/4] END C=0.001, multi_class=ovr, penalty=l2, random_state=420, solver=saga;, score=(train=0.883, test=0.864) total time=  21.7s
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+[CV 1/4] END C=0.1, multi_class=ovr, penalty=l1, random_state=420, solver=liblinear;, score=(train=0.932, test=0.891) total time=   2.6s
+[CV 2/4] END C=0.1, multi_class=ovr, penalty=l1, random_state=420, solver=liblinear;, score=(train=0.933, test=0.894) total time=   2.6s
+[CV 3/4] END C=0.1, multi_class=ovr, penalty=l1, random_state=420, solver=liblinear;, score=(train=0.933, test=0.889) total time=   2.7s
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+[CV 4/4] END C=0.1, multi_class=ovr, penalty=l1, random_state=420, solver=liblinear;, score=(train=0.936, test=0.889) total time=   2.7s
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+[CV 2/4] END C=0.01, multi_class=ovr, penalty=l1, random_state=420, solver=saga;, score=(train=0.824, test=0.819) total time=  29.6s
+[CV 4/4] END C=0.01, multi_class=ovr, penalty=l1, random_state=420, solver=saga;, score=(train=0.833, test=0.819) total time=  29.5s
+[CV 3/4] END C=0.01, multi_class=ovr, penalty=l1, random_state=420, solver=saga;, score=(train=0.835, test=0.804) total time=  29.6s
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+[CV 1/4] END C=0.01, multi_class=ovr, penalty=l1, random_state=420, solver=saga;, score=(train=0.830, test=0.823) total time=  30.0s
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+[CV 1/4] END C=0.01, multi_class=ovr, penalty=l2, random_state=420, solver=saga;, score=(train=0.898, test=0.869) total time=  20.7s
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+[CV 2/4] END C=0.01, multi_class=ovr, penalty=l2, random_state=420, solver=saga;, score=(train=0.894, test=0.866) total time=  21.1s
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+[CV 3/4] END C=0.01, multi_class=ovr, penalty=l2, random_state=420, solver=saga;, score=(train=0.896, test=0.860) total time=  21.1s
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+[CV 4/4] END C=0.01, multi_class=ovr, penalty=l2, random_state=420, solver=saga;, score=(train=0.898, test=0.865) total time=  21.3s
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+[CV 2/4] END C=0.1, multi_class=ovr, penalty=l2, random_state=420, solver=liblinear;, score=(train=0.962, test=0.879) total time=  14.9s
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+[CV 1/4] END C=0.1, multi_class=ovr, penalty=l2, random_state=420, solver=liblinear;, score=(train=0.960, test=0.881) total time=  15.1s
+[CV 4/4] END C=0.1, multi_class=ovr, penalty=l2, random_state=420, solver=liblinear;, score=(train=0.962, test=0.887) total time=  15.0s
+[CV 3/4] END C=0.1, multi_class=ovr, penalty=l2, random_state=420, solver=liblinear;, score=(train=0.964, test=0.874) total time=  15.1s
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+[CV 1/4] END C=0.1, multi_class=ovr, penalty=l2, random_state=420, solver=saga;, score=(train=0.899, test=0.871) total time=  22.2s
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+[CV 3/4] END C=0.1, multi_class=ovr, penalty=l2, random_state=420, solver=saga;, score=(train=0.897, test=0.859) total time=  22.2s
+[CV 2/4] END C=0.1, multi_class=ovr, penalty=l2, random_state=420, solver=saga;, score=(train=0.895, test=0.863) total time=  22.6s
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+[CV 4/4] END C=0.1, multi_class=ovr, penalty=l2, random_state=420, solver=saga;, score=(train=0.898, test=0.865) total time=  22.2s
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+[CV 1/4] END C=0.1, multi_class=ovr, penalty=l1, random_state=420, solver=saga;, score=(train=0.890, test=0.860) total time=  35.4s
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+[CV 2/4] END C=0.1, multi_class=ovr, penalty=l1, random_state=420, solver=saga;, score=(train=0.887, test=0.863) total time=  35.8s
+[CV 3/4] END C=0.1, multi_class=ovr, penalty=l1, random_state=420, solver=saga;, score=(train=0.887, test=0.860) total time=  35.9s
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+[CV 4/4] END C=0.1, multi_class=ovr, penalty=l1, random_state=420, solver=saga;, score=(train=0.890, test=0.867) total time=  36.3s
+[CV 2/4] END C=1.0, multi_class=ovr, penalty=l1, random_state=420, solver=liblinear;, score=(train=0.984, test=0.884) total time=  13.5s
+[CV 3/4] END C=1.0, multi_class=ovr, penalty=l1, random_state=420, solver=liblinear;, score=(train=0.987, test=0.881) total time=  13.6s
+[CV 1/4] END C=1.0, multi_class=ovr, penalty=l1, random_state=420, solver=liblinear;, score=(train=0.983, test=0.870) total time=  14.1s
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/svm/_base.py:1250: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/svm/_base.py:1250: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+[CV 4/4] END C=1.0, multi_class=ovr, penalty=l1, random_state=420, solver=liblinear;, score=(train=0.981, test=0.877) total time=  22.1s
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+[CV 1/4] END C=1.0, multi_class=ovr, penalty=l2, random_state=420, solver=saga;, score=(train=0.899, test=0.870) total time=  22.0s
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+[CV 3/4] END C=1.0, multi_class=ovr, penalty=l2, random_state=420, solver=saga;, score=(train=0.897, test=0.860) total time=  22.1s
+[CV 2/4] END C=1.0, multi_class=ovr, penalty=l2, random_state=420, solver=saga;, score=(train=0.895, test=0.863) total time=  22.2s
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+[CV 1/4] END C=1.0, multi_class=ovr, penalty=l2, random_state=420, solver=liblinear;, score=(train=0.992, test=0.867) total time=  27.4s
+[CV 3/4] END C=1.0, multi_class=ovr, penalty=l2, random_state=420, solver=liblinear;, score=(train=0.993, test=0.861) total time=  26.6s
+[CV 4/4] END C=1.0, multi_class=ovr, penalty=l2, random_state=420, solver=liblinear;, score=(train=0.991, test=0.867) total time=  26.1s
+[CV 2/4] END C=1.0, multi_class=ovr, penalty=l2, random_state=420, solver=liblinear;, score=(train=0.991, test=0.865) total time=  27.0s
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+[CV 4/4] END C=1.0, multi_class=ovr, penalty=l2, random_state=420, solver=saga;, score=(train=0.897, test=0.865) total time=  19.6s
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+[CV 1/4] END C=1.0, multi_class=ovr, penalty=l1, random_state=420, solver=saga;, score=(train=0.900, test=0.868) total time=  34.2s
+[CV 2/4] END C=1.0, multi_class=ovr, penalty=l1, random_state=420, solver=saga;, score=(train=0.894, test=0.863) total time=  33.5s
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+[CV 3/4] END C=1.0, multi_class=ovr, penalty=l1, random_state=420, solver=saga;, score=(train=0.897, test=0.859) total time=  33.9s
+/Users/vansh/anaconda3/envs/torch-ai/lib/python3.11/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+[CV 4/4] END C=1.0, multi_class=ovr, penalty=l1, random_state=420, solver=saga;, score=(train=0.898, test=0.865) total time=  34.0s
