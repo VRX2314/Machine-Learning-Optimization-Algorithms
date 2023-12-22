@@ -2,11 +2,15 @@
 
 This repository aims to apply various machine learning algorithms to the MNIST handwritten digit classification problem and compare their performance and optimization techniques.
 
+![Hero](./Handwritten_Digits_Recognition/img/hero.gif "Hero")
+
 ## Dataset
 
 The MNIST dataset is a collection of 70,000 grayscale images of handwritten digits from 0 to 9, each of size 28 x 28 pixels. The dataset is split into 60,000 training images and 10,000 test images. The dataset is available from https://www.kaggle.com/competitions/digit-recognizer/data
 
 ## Algorithms Implemented
+
+![Results](./Handwritten_Digits_Recognition/img/results.png "Results")
 
 The following algorithms are implemented and optimized in this project:
 
@@ -15,6 +19,14 @@ The following algorithms are implemented and optimized in this project:
 - **Decision Tree Classifier:** A tree-based model that splits the feature space into regions based on a series of rules and assigns a class label to each region.
 - **Support Vector Machine:** A kernel-based model that finds the optimal hyperplane that separates the classes with the maximum margin.
 - **Convolutional Neural Network:** A deep learning model that consists of convolutional, pooling, and fully connected layers and learns hierarchical features from the images.
+
+## Optimization Techniques
+
+- **Logistic Regression:** The learning rate is tuned using a grid search to find the optimal value that minimizes the cross-entropy loss. A regularization term is added to the loss function to prevent overfitting and reduce the variance of the model.
+- **K-nearest neighbours:** The number of neighbours is tuned using a grid search to find the optimal value that maximizes the accuracy. A distance metric is chosen based on the similarity of the features. A weighted voting scheme is used to give more importance to the closer neighbours.
+- **Decision Tree Classifier:** The depth of the tree is tuned using a grid search to find the optimal value that balances the bias-variance trade-off. A pruning technique is applied to reduce the complexity of the tree and avoid overfitting. An entropy-based criterion is used to select the best split at each node.
+- **Support Vector Machine:** The kernel function is tuned using a grid search to find the optimal value that captures the non-linearity of the data. A regularization parameter is tuned to control the margin width and the penalty for misclassification. A scaling technique is applied to normalize the features and improve the convergence of the algorithm.
+- **Convolutional Neural Network:** The number of filters, kernel size, and stride are tuned to optimize the feature extraction process. The number of hidden layers and units are tuned to optimize the representation learning process.
 
 ## Performance Metrics
 
@@ -25,14 +37,6 @@ The following metrics are used to evaluate the performance of the algorithms:
 - Recall: The proportion of correctly classified images out of the total number of images belonging to a class.
 - F1-score: The harmonic mean of precision and recall.
 - Confusion Matrix: A table that shows the number of true positives, false positives, false negatives, and true negatives for each class.
-
-## Optimization Techniques
-
-- **Logistic Regression:** The learning rate is tuned using a grid search to find the optimal value that minimizes the cross-entropy loss. A regularization term is added to the loss function to prevent overfitting and reduce the variance of the model.
-- **K-nearest neighbours:** The number of neighbours is tuned using a grid search to find the optimal value that maximizes the accuracy. A distance metric is chosen based on the similarity of the features. A weighted voting scheme is used to give more importance to the closer neighbours.
-- **Decision Tree Classifier:** The depth of the tree is tuned using a grid search to find the optimal value that balances the bias-variance trade-off. A pruning technique is applied to reduce the complexity of the tree and avoid overfitting. An entropy-based criterion is used to select the best split at each node.
-- **Support Vector Machine:** The kernel function is tuned using a grid search to find the optimal value that captures the non-linearity of the data. A regularization parameter is tuned to control the margin width and the penalty for misclassification. A scaling technique is applied to normalize the features and improve the convergence of the algorithm.
-- **Convolutional Neural Network:** The number of filters, kernel size, and stride are tuned to optimize the feature extraction process. The number of hidden layers and units are tuned to optimize the representation learning process.
 
 ## Results
 

@@ -1,0 +1,6 @@
+,Model,Scores
+0,Logistic Regression,0.9192857142857143
+1,K-Nearest Neigbours,0.9702380952380952
+2,Decision Tree Classifier,0.8629761904761905
+3,Support Vector Machine,0.9807142857142858
+4,CNN,0.9975238095238095
