@@ -20,24 +20,6 @@ The following algorithms are implemented and optimized in this project:
 - **Support Vector Machine:** A kernel-based model that finds the optimal hyperplane that separates the classes with the maximum margin.
 - **Convolutional Neural Network:** A deep learning model that consists of convolutional, pooling, and fully connected layers and learns hierarchical features from the images.
 
-## Optimization Techniques
-
-- **Logistic Regression:** The learning rate is tuned using a grid search to find the optimal value that minimizes the cross-entropy loss. A regularization term is added to the loss function to prevent overfitting and reduce the variance of the model.
-- **K-nearest neighbours:** The number of neighbours is tuned using a grid search to find the optimal value that maximizes the accuracy. A distance metric is chosen based on the similarity of the features. A weighted voting scheme is used to give more importance to the closer neighbours.
-- **Decision Tree Classifier:** The depth of the tree is tuned using a grid search to find the optimal value that balances the bias-variance trade-off. A pruning technique is applied to reduce the complexity of the tree and avoid overfitting. An entropy-based criterion is used to select the best split at each node.
-- **Support Vector Machine:** The kernel function is tuned using a grid search to find the optimal value that captures the non-linearity of the data. A regularization parameter is tuned to control the margin width and the penalty for misclassification. A scaling technique is applied to normalize the features and improve the convergence of the algorithm.
-- **Convolutional Neural Network:** The number of filters, kernel size, and stride are tuned to optimize the feature extraction process. The number of hidden layers and units are tuned to optimize the representation learning process.
-
-## Performance Metrics
-
-The following metrics are used to evaluate the performance of the algorithms:
-
-- Accuracy: The proportion of correctly classified images out of the total number of images.
-- Precision: The proportion of correctly classified images out of the total number of images predicted as a class.
-- Recall: The proportion of correctly classified images out of the total number of images belonging to a class.
-- F1-score: The harmonic mean of precision and recall.
-- Confusion Matrix: A table that shows the number of true positives, false positives, false negatives, and true negatives for each class.
-
 ## Results
 
 The following table summarizes the results of the algorithms on the test set after applying the optimization techniques:
@@ -60,6 +42,24 @@ The results show that the convolutional neural network achieved the best perform
 | Decision Tree Classifier     | The Decision Tree Classifier yields a flow chart like tree which produces predictions based on conditional nodes and branches of the trees leading to a leaf node. The sparsity of the dataset as well as the feature similarites shared across labels means that the decision tree will not be able to produce pure splits with a zero entropy. This yields a poorly classifying model incapable of confidently predicting the correct label. The performance can be increased by performing t-SNE or TSVD where only the most important features representing each label are kept. This will reduce the ambiguity within the dataset and allow a generelized tree to be developed. |
 | Support Vector Machine       | The SVM algorithm provides a highly desireable accuracy of 98%. This is due to its complexity and the ability to split complex data into labels using hyperplanes. The SVM algorithm represents the datset into a multi-dimensional space and uses hyperplanes which a seperating planes that can exhibit a functional shape useful for splitting the data into respective labels. The hyperplane is formed on the basis of the support vectors which are basically points that share similar features to multiple labels due to which the datapoint is difficult to classify. By applying the principle of maximizing the support vector distance, optimum planes are found for accurate classification of the dataset. |
 | Convolutional Neural Network | CNN are most suited for a task such as Handwritten Digit Reconition due to its ability of automated feature extraction which efficiently combats the high dimensionality and sparsity present within the dataset. CNN achieves a near state of the art accuracy of 99.7% due to its ability of feature extraction and non linear function approximation. This is one of the best performing implementations for this dataset. |
+
+## Optimization Techniques Explained
+
+- **Logistic Regression:** The learning rate is tuned using a grid search to find the optimal value that minimizes the cross-entropy loss. A regularization term is added to the loss function to prevent overfitting and reduce the variance of the model.
+- **K-nearest neighbours:** The number of neighbours is tuned using a grid search to find the optimal value that maximizes the accuracy. A distance metric is chosen based on the similarity of the features. A weighted voting scheme is used to give more importance to the closer neighbours.
+- **Decision Tree Classifier:** The depth of the tree is tuned using a grid search to find the optimal value that balances the bias-variance trade-off. A pruning technique is applied to reduce the complexity of the tree and avoid overfitting. An entropy-based criterion is used to select the best split at each node.
+- **Support Vector Machine:** The kernel function is tuned using a grid search to find the optimal value that captures the non-linearity of the data. A regularization parameter is tuned to control the margin width and the penalty for misclassification. A scaling technique is applied to normalize the features and improve the convergence of the algorithm.
+- **Convolutional Neural Network:** The number of filters, kernel size, and stride are tuned to optimize the feature extraction process. The number of hidden layers and units are tuned to optimize the representation learning process.
+
+## Performance Metrics Used
+
+The following metrics are used to evaluate the performance of the algorithms:
+
+- Accuracy: The proportion of correctly classified images out of the total number of images.
+- Precision: The proportion of correctly classified images out of the total number of images predicted as a class.
+- Recall: The proportion of correctly classified images out of the total number of images belonging to a class.
+- F1-score: The harmonic mean of precision and recall.
+- Confusion Matrix: A table that shows the number of true positives, false positives, false negatives, and true negatives for each class.
 
 ## References
 
