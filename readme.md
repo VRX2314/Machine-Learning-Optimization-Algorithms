@@ -4,6 +4,8 @@ This repository aims to apply various machine learning algorithms to the MNIST h
 
 ![Hero](./Handwritten_Digits_Recognition/img/hero.gif "Hero")
 
+**⚠️ Still in the works**
+
 ## Dataset
 
 The MNIST dataset is a collection of 70,000 grayscale images of handwritten digits from 0 to 9, each of size 28 x 28 pixels. The dataset is split into 60,000 training images and 10,000 test images. The dataset is available from https://www.kaggle.com/competitions/digit-recognizer/data
