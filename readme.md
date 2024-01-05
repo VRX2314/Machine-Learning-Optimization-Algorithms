@@ -17,6 +17,7 @@ The MNIST dataset is a collection of 70,000 grayscale images of handwritten digi
 The following algorithms are implemented and optimized in this project:
 
 - **Logistic Regression:** A linear model that uses a sigmoid function to output the probability of a class label.
+
 - **K-nearest neighbours:** A non-parametric method that assigns a class label based on the majority vote of the k closest neighbours in the feature space.
 - **Decision Tree Classifier:** A tree-based model that splits the feature space into regions based on a series of rules and assigns a class label to each region.
 - **Support Vector Machine:** A kernel-based model that finds the optimal hyperplane that separates the classes with the maximum margin.
@@ -48,6 +49,11 @@ The results show that the convolutional neural network achieved the best perform
 ## Optimization Techniques Explained
 
 - **Logistic Regression:** The learning rate is tuned using a grid search to find the optimal value that minimizes the cross-entropy loss. A regularization term is added to the loss function to prevent overfitting and reduce the variance of the model.
+
+![logi_c](./Handwritten_Digits_Recognition/img/logistic_c.png "Logistic C")
+
+![logi_ceof](./Handwritten_Digits_Recognition/img/logi_coef.png)
+
 - **K-nearest neighbours:** The number of neighbours is tuned using a grid search to find the optimal value that maximizes the accuracy. A distance metric is chosen based on the similarity of the features. A weighted voting scheme is used to give more importance to the closer neighbours.
 - **Decision Tree Classifier:** The depth of the tree is tuned using a grid search to find the optimal value that balances the bias-variance trade-off. A pruning technique is applied to reduce the complexity of the tree and avoid overfitting. An entropy-based criterion is used to select the best split at each node.
 - **Support Vector Machine:** The kernel function is tuned using a grid search to find the optimal value that captures the non-linearity of the data. A regularization parameter is tuned to control the margin width and the penalty for misclassification. A scaling technique is applied to normalize the features and improve the convergence of the algorithm.
